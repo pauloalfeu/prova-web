@@ -1,0 +1,266 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&&family=Ubuntu:wght@300;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #060047;
+
+}
+ul {
+  list-style: none;
+  font-weight: bold;
+  
+}
+a{
+text-decoration: none;
+color: inherit;
+}
+
+header {
+background: no-repeat center/cover url("https://wallpaperaccess.com/full/125890.jpg");
+height: calc(120vh - 100px);
+}
+
+header nav {
+display: flex;
+justify-content: flex-start
+margin: auto 90px;
+}
+
+header nav ul {
+display: flex;
+}
+
+header nav ul li {
+margin: 0 15px;
+}
+
+#logo-site {
+font-weight: bold;
+margin-left: 80%;
+}
+
+header nav img {
+opacity: 80%;
+width: 14px;
+height: 14px;
+}
+
+.header-content {
+max-width: 600px;
+margin: 150px auto;
+text-align: center;
+}
+
+.header-content h1 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+  font-family: 'Ubuntu';
+  color: #FFF6BD;
+}
+
+
+.pacotes .pacotes-title {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+  font-size: 2.2rem;
+  font-family: 'Ubuntu';
+  padding-bottom: 20px;
+}
+
+.pacotes {
+  background: #f8f9ed;
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+
+
+.pacotes .pacotes-card {
+  display: flex;
+  margin: auto;
+  max-width: 950px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pacotes .card-image {
+  width: 250px;
+  height: 150px;
+  border-radius: 24px 0 0 0;
+}
+
+.pacotes .card {
+  width: 250px;
+  height: 320px;
+  background: #0F6292;
+  border-radius: 24px 0;
+  margin: 25px;
+  position: relative;
+}
+
+.pacotes .card-content {
+  padding: 0 15px;
+
+}
+
+.pacotes .card-content ul {
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.pacotes-card .card-content ul li {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+  color: #e4e3e3;
+  font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+  font-size: 1rem;
+  color: #eff1d2;
+}
+.pacotes .card .card-tag-top {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+  font-style: oblique;
+}
+.pacotes .card .card-tag-bottom {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 10px;
+  font-style: oblique;
+}
+
+.pacotes .card .card-tag p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #090909;
+  font-weight: bold;
+}
+
+.pacotes .card:hover {
+  transform: scale(1.15);
+}
+
+.servicos {
+  padding: 30px;
+  padding-bottom: 80px;
+  background: #0F6292;
+  color: #eff1d2;
+  }
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+    font-size: 1.9rem;
+  }
+
+.servicos .servicos-cards {
+  margin-top: 25px;
+  display: flex;
+  max-width: 950px;
+  justify-content: center;
+  margin: auto;
+}
+
+.servicos .card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.servicos .card svg {
+  width: 60px;
+  height: 60px;
+  margin: 50px;
+}
+
+.servicos .card svg:hover {
+  stroke: #191825;
+  transform: scale(1.1);
+}
+
+.servicos .card h3 {
+  font-weight: bold;
+}
+
+.servicos .card p {
+  color: #d4d1d1;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.servicos .card .card-content {
+  height: 180px;
+  text-align: center;
+}
+
+.servicos .card .card-content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.contatos {
+  height: 200px;
+  background: #191825;
+  color: #e4e3e3;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.contatos-cards {
+  display: flex;
+  left: 5px;
+  justify-content: space-evenly;
+}
+
+.contatos .facebook svg {
+  color: #3454e4;
+  margin-right: 10px;
+}
+
+.contatos .twitter svg {
+  color: #5ca0f3;
+  margin-right: 10px;
+}
+
+.contatos .instagram svg {
+  color: #f35c82;
+  margin-right: 10px;
+}
+
+.contatos .email svg {
+  color: #ead994;
+  margin-right: 10px;
+}
+
+.contatos .contatos-cards p {
+  display: flex;
+  align-items: center;
+  text-indent: 5px;
+}
